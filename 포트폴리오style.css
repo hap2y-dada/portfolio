@@ -1,0 +1,246 @@
+/* Google Font: Gowun Dodum 적용 */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+body {
+  background-color: rgba(121, 127, 176, 0.15);
+}
+
+.scroll {
+  -ms-overflow-style: none; /* 인터넷 익스플로러 */
+  scrollbar-width: none; /* 파이어폭스 */
+  overflow: hidden;
+}
+
+  .본문 {
+    font-weight: 430;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.6;
+    
+  }
+  
+  .설명 {
+    color: rgb(75, 75, 75);
+  }
+
+  .날짜 {
+    color: rgb(160, 160, 160);
+  }
+
+  .세미타이틀 {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color: #50504d;
+  }
+  
+
+
+  .타이틀 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 80px;
+    width: auto;
+    color: #40403E;
+    position: relative;
+    display: inline-block;
+
+  }
+
+
+
+  .제목강조효과 {
+    position: bottom;
+    bottom: 10px;
+    left: 50%;
+    height: 30px;
+    background-color: #797fb0b7;
+    border-radius: 1px;
+    z-index: 0; /* 제목보다 뒤에 위치 */
+  }
+
+.list {
+ display: flex;
+  padding: 0px 30px 0px 35px;
+  align-items: center;
+  gap: 25px;
+  align-self: stretch;
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+  .card {
+    background: white;
+    display: flex;
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 40px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+
+  }
+
+  .card:hover {
+    transform: scale(1.03);
+  }
+
+  .미리보기 {
+    font-weight: 430;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 1.6;
+  }
+
+  .미리보기프로젝트명 {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #50504d;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    align-self: stretch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .포트폴리오-미리보기이미지 {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+  }
+
+  .frame1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    align-self: stretch;
+  }
+
+  .frame2 {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 100px;
+  }
+
+  .frame3 {
+    display: flex;
+    align-items: top;
+    gap: 5px;
+    width: 430px;
+  }
+
+  /* 자세히 보기 버튼 */
+.card-btn {
+  background: #4b4b52;
+  color: white;
+  border: none;
+  width: 95px;
+  height: 35px;
+  padding: 5px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 38px;
+  cursor: pointer;
+  transition: background 0.3s; 
+
+}
+
+.card-btn:hover {
+  background: #313135;
+}
+
+/* 버튼 클릭 효과 */
+.card-btn:active {
+  background-color: #161617;
+  transform: scale(0.96);
+}
+
+.arrow {
+  display: flex;
+  align-items: left; /* 왼쪽 정렬 */
+  gap: 0px;
+  margin-top: 35px;
+  margin-left: 30px;
+}
+
+#arrow-size {
+  width: 60px;
+  height: 60px;
+}
+
+.header {
+  display: flex;
+}
+
+#gap {
+  gap: 20px;
+}
+
+.padding {
+    display: block;
+    padding: 30px;
+}
+
+
+.under {
+  text-decoration : underline;
+}
+
+
+
+#first {
+  padding: 60px 30px;
+  display: flex;
+ }
+
+
+
+/* 버튼 */
+.contact-btn {
+  background: #797FB0;
+  color: white;
+  border: none;
+  padding: 0px 30px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background 0.3s; 
+}
+
+.contact-btn:hover {
+  background: #5F66A0;
+  transform: scale(1.02);
+}
+
+/* 버튼 클릭 효과 */
+.contact-btn:active {
+  background-color: #474d84;
+  transform: scale(0.95);
+}
+
+.footer {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: block;
+  padding: 10px 30px;
+  color: #797979d1;
+  }

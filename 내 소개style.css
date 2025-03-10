@@ -1,0 +1,223 @@
+/* Google Font: Gowun Dodum 적용 */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+
+body {
+  background: url('background2.png') no-repeat center top;
+  background-size: cover;
+}
+
+  .본문 {
+    font-weight: 430;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.6;
+    
+  }
+  
+  .설명 {
+    color: rgb(75, 75, 75);
+  }
+
+  .날짜 {
+    color: rgb(160, 160, 160);
+  }
+
+  .세미타이틀 {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color: #50504d;
+  }
+  
+
+
+  .타이틀 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 80px;
+    width: auto;
+    color: #ffffff;
+    position: relative;
+    display: inline-block;
+
+  }
+
+
+  .line4 {
+    width: 100px; /* 박스 크기 조절 */
+    
+  }
+
+
+  .제목강조효과 {
+    position: bottom;
+    bottom: 10px;
+    left: 50%;
+    height: 30px;
+    background-color: #797fb0b7;
+    border-radius: 1px;
+    z-index: 0; /* 제목보다 뒤에 위치 */
+  }
+
+  .card {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+  }
+
+.이미지 {
+  border-radius: 20px;
+}
+
+#poster {
+  border-radius: 20px;
+  padding: 30px;
+  background: rgba(145, 149, 178, 0.30);
+}
+
+#text {
+  border-radius: 16px;
+  padding:5px 30px;
+  background: white;
+}
+
+
+
+.프로필 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 50px
+
+}
+
+.arrow {
+  display: flex;
+  align-items: left; /* 왼쪽 정렬 */
+  gap: 0px;
+  margin-top: 35px;
+  margin-left: 30px;
+}
+
+#arrow-size {
+  width: 60px;
+  height: 60px;
+}
+
+.header {
+  display: flex;
+}
+
+#gap {
+  gap: 20px;
+}
+
+.padding {
+    display: block;
+    padding: 30px;
+}
+
+.under {
+  text-decoration : underline;
+}
+
+.div {
+    display: block;
+    padding: 15px 10px;
+}
+
+
+
+#first {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+
+.name {
+  align-self: stretch;
+  color: #858585;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.detail{
+  align-self: stretch;
+  color: #40403E;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+#colorchange:hover {
+  color: #797FB0;
+}
+
+.layout1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.layout2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.layout3 {
+  display: flex;
+  width: 420px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  flex-shrink: 0;
+}
+
+.img {
+  
+  height: 400px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #ffffff;
+}
+
+.layout4 {  
+  border-radius: 25px;
+  background: #FFF;
+
+  display: flex;
+  padding: 30px 80px;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.idcard {
+  display: flex;
+ 
+  padding: 25px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 30px;
+  background: rgba(121, 127, 176, 0.31);
+}
